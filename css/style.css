@@ -159,7 +159,23 @@ a {
     color: aqua;
 }
 
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+table td{
+    padding: 10px;
+    border: 1px solid #dee8ec;
+    transition: color 0.2s;
+}
+table td:hover{
+    background: #14a9e4;
+    color: #fff;
+}
 .footer{
     text-align: center;
 }
+
 
