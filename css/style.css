@@ -1,0 +1,165 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #595d69;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: inherit;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 2em;
+    margin-top: -35px;
+}
+
+.navbar li{
+    display: inline-block;
+    padding-right: 16px;
+    padding-left: 16px;
+    
+}
+.navbar a{
+    text-transform: capitalize;
+    line-height: 1.5rem;
+    transition: color 0.5s;
+}
+
+.navbar a:hover{
+    color: #0d6efd;
+
+}
+
+.main{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.jumbotron {
+    text-align: center;
+    border: 1px ridge #595d69;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.jumbotron span {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 200;
+}
+
+.jumbotron h3{
+    font-weight: 500;
+    font-size: 2em;
+    color: black;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 3fr 200px;
+    grid-gap: 50px;
+    margin-top: 30px;
+}
+
+.article{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.article-image{
+    margin-right: 20px;
+}
+
+.article-image img{
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.article-content h2 {
+    font-weight: 700;
+    color: black;
+    transition: text-decoration 10s;
+}
+.article-content h2:hover{
+    text-decoration: underline;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.article-content p {
+    margin-top: -5px;
+}
+
+.article-avatar img{
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #595d69;
+}
+
+.article-content .article-category{
+    display: inline-block;
+    width: 15%;
+    height: 20px;
+    border: 1px solid #b90a0a;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #b90a0a;
+}
+
+.article-content .article-category-2{
+    display: inline-block;
+    width: 15%;
+    height: 20px;
+    border: 1px solid #14a9e4;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #14a9e4;
+}
+
+.list-category{
+    padding: 10px;
+    background-color: beige;
+    height: 17%;
+}
+
+.list-category div{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list-category a{
+    transition: color 0.6s;
+    transition: font-size 0.4s;
+}
+.list-category a:hover{
+    font-size: 20px;
+    color: aqua;
+}
+
+.footer{
+    text-align: center;
+}
+
